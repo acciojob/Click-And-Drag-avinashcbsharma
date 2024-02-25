@@ -23,7 +23,7 @@ const items = document.querySelector('.items');
       if (!isMouseDown) return;
       e.preventDefault();
       const x = e.pageX - items.offsetLeft;
-      const walk = (x - startX) * 3; // Adjust the speed of scrolling
+      const walk = (x - startX) * 3; 
 
       items.scrollLeft = scrollLeft - walk;
     });
